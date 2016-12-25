@@ -3,13 +3,14 @@ body {
 }
 
 .flex-container {
-    /*display: flex;*/
-    display: inline-flex;
+    display: flex;
+    /*display: inline-flex;*/
 
-    /*flex-direction: row;*/
-    /*flex-direction: row-reverse;*/
-    flex-direction: column;
+    flex-direction: row; /* row | row-reverse | column | column-reverse */
 
+    flex-wrap: wrap ; /* nowrap | wrap | wrap-reverse */
+
+    height: 150px;
     background: #fff;
     padding: 10px;
     border-radius: 3px;
@@ -22,4 +23,5 @@ body {
     background: firebrick;
     border-radius: 3px;
     margin: 5px;
+    width: 30px;
 }
