@@ -1,8 +1,3 @@
-body {
-    padding: 40px 0;
-    background: #dedede;
-}
-
 .flex-container {
     display: flex; /* inline-flex */
 
@@ -11,26 +6,21 @@ body {
     flex-wrap: wrap ; /* nowrap | wrap | wrap-reverse */
 
     justify-content: space-between; /* flex-start | flex-end | center | space-around | space-around */
-
-    background: #fff;
-    padding: 10px;
-    border-radius: 3px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.3);
 }
 
 .flex-element {
-    color: #ffffff;
-    padding: 15px;
-    background: firebrick;
-    border-radius: 3px;
-    margin: 5px;
-    /*width: 400px;*/
-    flex-basis: 200px; /* minimal width */
+    /*flex: 1 200px; !* grow | bases *!*/
+    flex: 1;
 }
 .element-1 {
-    /*flex-grow: 2;*/
-    /*flex-shrink: 2;*/
+    flex: 1 ;
+}
+.element-2 {
+    flex: 2 ;
+}
+.element-3 {
+    flex: 3 ;
 }
 .element-4 {
-    /*flex-shrink: 2;*/
+    flex: 4 ;
 }
