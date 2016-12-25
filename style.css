@@ -5,22 +5,26 @@
 
     flex-wrap: wrap ; /* nowrap | wrap | wrap-reverse */
 
-    justify-content: space-between; /* flex-start | flex-end | center | space-around | space-around */
+    justify-content: flex-start; /* flex-start | flex-end | center | space-around | space-around */
+
+    height: 400px;
+    align-items: center; /* def:stretch | center | flex-start | flex-end */
+    align-content: space-around; /* space-around | space-between | center | flex-end | flex-start */
 }
 
 .flex-element {
-    /*flex: 1 200px; !* grow | bases *!*/
-    flex: 1;
+    flex: 1 100px;
+
 }
 .element-1 {
-    flex: 1 ;
+    /*align-self: flex-start;*/
 }
 .element-2 {
-    flex: 2 ;
 }
 .element-3 {
-    flex: 3 ;
 }
 .element-4 {
-    flex: 4 ;
+}
+.element-5 {
+    /*align-self: flex-end;*/
 }
