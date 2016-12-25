@@ -1,0 +1,20 @@
+body {
+    background: #dedede;
+}
+
+.flex-container {
+    /*display: flex;*/
+    display: inline-flex;
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+
+.flex-element {
+    color: #ffffff;
+    padding: 15px;
+    background: firebrick;
+    border-radius: 3px;
+    margin: 5px;
+}
